@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZLC", "MircosoftWindowsService\EZLC.csproj", "{F3550197-F749-44FA-BD14-ADD8D723630B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LCServiceSetup", "SetupWinSer\SetupWinSer.vdproj", "{66A14144-B6A4-4732-B751-B8B9700979FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3550197-F749-44FA-BD14-ADD8D723630B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3550197-F749-44FA-BD14-ADD8D723630B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3550197-F749-44FA-BD14-ADD8D723630B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3550197-F749-44FA-BD14-ADD8D723630B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A14144-B6A4-4732-B751-B8B9700979FC}.Debug|Any CPU.ActiveCfg = Debug
+		{66A14144-B6A4-4732-B751-B8B9700979FC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78D931D6-6152-44CE-9A04-6FC15BEA9273}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://dev-gn-04:8080/tfs/ezi_projects
+		SccProjectUniqueName0 = SetupWinSer\\SetupWinSer.vdproj
+		SccProjectName0 = SetupWinSer
+		SccLocalPath0 = SetupWinSer
+		SccProjectUniqueName1 = MircosoftWindowsService\\EZLC.csproj
+		SccProjectName1 = MircosoftWindowsService
+		SccLocalPath1 = MircosoftWindowsService
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
